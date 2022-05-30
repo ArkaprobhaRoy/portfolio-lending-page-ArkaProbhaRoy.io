@@ -1,0 +1,177 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+}
+.hero{
+    height: 400vh;
+    width: 200vh;
+    background-color: rgb(19, 15, 46);
+}
+.logo{
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 12%;
+    padding-right: 12%;
+    position: relative;
+    z-index: 5;
+}
+nav ul li {
+    list-style:none;
+    display: inline-block;
+    padding: 0px 25px;
+    z-index: 7;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 560;
+    font-size: 17px;
+}
+nav ul li a:hover{
+    font-size:  20px;
+    color: #803dff;
+    display: block;
+    text-shadow: 0px 0px 10px #9861fe;
+    transition: .3s;
+}
+.main-text{
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translateY(-50%);
+}
+.main-text h1 {
+    font-size: 72px;
+    color: #3c3c3c;
+    font-weight: 800;
+    line-height: 140px;
+}
+span
+{
+    color: rgb(252, 246, 181);
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 30px #eee5ff;
+}
+.main-text p {
+    color: #737373;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin: 40px 0px;
+}
+button{
+    width: 160px;
+    background-color: #ffef16;
+    padding: 12px 10px;
+    border-radius: 15px;
+     /* glow  */
+    border: none;
+    color: rgb(25, 44, 73);
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: width 0.4s;
+}
+button img{
+    width: 35px;
+    display: none;
+}
+button:hover img{
+    display: block;
+}
+button:hover{
+    transition: 0.3s;
+    width: 180px;
+    display: flex;
+    box-shadow: 0px 0px 20px 4px #fff985;
+    align-items:center ;
+    justify-content: space-between;
+}
+.main-img{
+ position: absolute;
+ width: 50%;
+ height: 100%;
+ bottom: 0;
+ right: 0;
+ text-align: right;
+}
+.main-img{
+    top: 100px;
+    right:25px;
+    transition: all 0.3s ease-in-out;
+}
+.main-img:hover{
+    transition: 0.3s;
+	transform: scale(1.1);
+}
+.social-menu ul {
+  position: absolute;
+  top: 91%;
+  left:30%;
+  padding: 0;
+  margin:  0 px;
+  transform: translate(-50%,-50%); 
+  display: flex;
+  
+}
+.social-menu ul li {
+    
+    list-style: none;
+    /* gaph between */
+    margin: 0 30px;
+}
+.social-menu ul li .fa-brands{
+    font-size: 25px;
+    line-height: 60px;
+    transition: 0.6s;
+    color: #8978e4;
+}
+.social-menu ul li .fa-brands:hover{
+    color: #fff;
+}
+ .social-menu ul li a{
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    background-color: #dfc2f8;
+    text-align: center;
+    transform: 0.6s; 
+     width:  60px ;
+    height: 60px ;
+    
+    box-shadow: 4px 4px 23px #c583ff ;
+ }
+ .social-menu ul li a:hover{
+     transition: 0.3s;
+     transform: translate(0, -10px);
+ }
+
+ /* hover color giving */
+ .social-menu ul li:nth-child(1) a:hover{
+    background-color:  #1877f2;
+    box-shadow: -2px 2px 15px  #65a4f8 ;
+}
+ .social-menu ul li:nth-child(2) a:hover{
+    background-color:   #171515;
+}
+ .social-menu ul li:nth-child(3) a:hover{
+     background-color:  #0a66c2;
+     box-shadow: -2px 2px 15px  #65a4f8 ;
+ 
+}
+ .social-menu ul li:nth-child(4) a:hover{
+    background-color:   #e339b8;
+}
+ .social-menu ul li:nth-child(5) a:hover{
+    background-color:  #1da1f2;
+}
+ .social-menu ul li:nth-child(6) a:hover{
+    background-color:  #ff0000;
+}
