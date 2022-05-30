@@ -2,4 +2,5 @@
 # portfolio-lending-page
 A basic portfolio website with typed.js🎉
 <h1> hey=👋, guys I'm Arka ..about ne ? go to my portfolio  </h1>
-link 🔗 --> 
+link 🔗 --> ⤵️
+ https://arkaprobharoy.github.io/portfolio-lending-page-ArkaProbhaRoy.io/
